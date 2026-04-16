@@ -1,0 +1,13 @@
+.search-results {
+  padding: 30px 8%;
+}
+
+.search-results h2 {
+  margin-bottom: 20px;
+}
+
+.food-display-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 30px;
+}
