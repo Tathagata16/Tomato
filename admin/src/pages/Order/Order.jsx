@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./Order.css";
 import { toast } from "react-toastify";
-import { assets } from "../../../../frontend/src/assets/frontend_assets/assets";
+import { assets } from "../../assets/frontend_assets/assets";
 import { socket } from "../../socket"; // ✅ ONLY import
 
 const Order = ({ url }) => {
