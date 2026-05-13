@@ -19,8 +19,11 @@ spec:
     spec:
       containers:
         - name: backend
-
           image: yourdockerhubusername/restaurant-backend:v1
 
           ports:
             - containerPort: 4000
+
+          envFrom:
+            - secretRef:
+                name: backend-secret
